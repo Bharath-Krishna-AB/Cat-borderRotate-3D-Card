@@ -29,7 +29,7 @@
     border: 15px solid #eb311f;
     transform: rotate(45deg);
     box-shadow: 0 0 10px #eb311f, inset 0 0 20px #eb311f;
-    transition: all 0.7s linear;
+    transition: all 0.7s cubic-bezier(0.68, -0.55, 0, 1.96);;
 }
 
 .grid{
@@ -52,4 +52,10 @@ img{
 
 .design img{
     box-shadow: 0 0 20px #bac3c3;
+}
+
+.design:hover #rotate-border{
+    z-index: -1;
+    transform: rotate(-90deg);
+    box-shadow: 0 0 10px #000, inset 0 0 20px #000;
 }
