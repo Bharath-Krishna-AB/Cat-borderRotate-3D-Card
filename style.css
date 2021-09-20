@@ -24,3 +24,10 @@
     width: 400px;
     height: 400px;
 }
+
+#rotate-border{
+    border: 15px solid #eb311f;
+    transform: rotate(45deg);
+    box-shadow: 0 0 10px #eb311f, inset 0 0 20px #eb311f;
+    transition: all 0.7s linear;
+}
