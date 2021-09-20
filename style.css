@@ -41,3 +41,7 @@
 .data-white{
     background: #fff;
 }
+
+.blend{
+    mix-blend-mode: multiply;
+}
