@@ -31,3 +31,13 @@
     box-shadow: 0 0 10px #eb311f, inset 0 0 20px #eb311f;
     transition: all 0.7s linear;
 }
+
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.data-white{
+    background: #fff;
+}
